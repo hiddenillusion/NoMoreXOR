@@ -1,10 +1,8 @@
-NoMoreXOR.py
-=============
+# NoMoreXOR.py
 
 Tool to help guess a files 256 byte XOR key by using frequency analysis.
 
-Usage
------
+## Usage
 	usage: NoMoreXOR.py [-h] [-a] [-c] [-xor key] [-g] [-o outfile] [-y YARARULES]
 						Path
 
@@ -31,3 +29,6 @@ Usage
 						  Path to YARA rules to be used during auto analysis if
 						  different than what's hardcoded
 
+## Additional Reading
+
+You can find more information in [this blog post](https://hiddenillusion.github.io/2013/01/22/nomorexor/).
